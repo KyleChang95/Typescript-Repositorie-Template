@@ -1,10 +1,9 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "ghcr.io/kylechang95/docker-development-typescript:1.0.0",
   "features": {
     "ghcr.io/devcontainers/features/aws-cli:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-  "postStartCommand": "npm install -g ts-node",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -18,17 +17,6 @@
         "yzhang.markdown-all-in-one",
         "alefragnani.project-manager"
       ]
-    },
-    "codespaces": {
-      "repositories": {
-        "/KyleChang95/*": {
-          "permissions": "write-all",
-          "clone": {
-            "checkoutBranch": "main",
-            "checkoutCommit": "HEAD"
-          }
-        }
-      }
     }
   }
 }
