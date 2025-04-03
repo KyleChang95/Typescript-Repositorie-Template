@@ -1,0 +1,9 @@
+node_modules
+**/*.env
+**/*.xlsx
+**/*.csv
+coverage*
+dist
+
+# Macbook
+.DS_Store
